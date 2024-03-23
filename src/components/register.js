@@ -56,7 +56,7 @@ function Register({toggle, toggleForm }) {
                 </div>
                 <div className="checkbox__container agree__container">
                     <input type="checkbox" id="agree" />
-                    <label for="agree" requiered>Estoy de acuerdo con los <a>Términos y Condiciones</a></label>
+                    <label htmlFor="agree" requiered>Estoy de acuerdo con los <a>Términos y Condiciones</a></label>
                 </div>
                 <button type="submit" className="button__select" onClick = {reload}>Registrarse</button>
             </form>

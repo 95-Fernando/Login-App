@@ -40,7 +40,7 @@ function Login({toggle, toggleForm}) {
         </div>
           <div className="checkbox__container">
             <input type="checkbox" id="remember" />
-            <label for="remember">Recuérdame</label>
+            <label htmlFor="remember">Recuérdame</label>
           </div>
         <button type="submit" className="button__select" onClick = {reload}>Ingresar</button>
         <button className="button__select" onClick = {toggle} >Registrarse</button>
